@@ -189,8 +189,8 @@ glances -t 5 --export influxdb2
 To simulate activity, I will run the [sysbench](https://github.com/akopytov/sysbench) application:
 
 ```shell
-[josevnz@dmaf5 Downloads]$ sudo dnf install -y sysbench
-[josevnz@dmaf5 Downloads]$ for i in $(seq 10); do sysbench --test=cpu run; done
+[josevnz@server1 Downloads]$ sudo dnf install -y sysbench
+[josevnz@server1 Downloads]$ for i in $(seq 10); do sysbench --test=cpu run; done
 ```
 
 [![asciicast](https://asciinema.org/a/568179.svg)](https://asciinema.org/a/568179)
