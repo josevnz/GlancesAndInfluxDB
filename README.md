@@ -29,10 +29,10 @@ Let's move on with the installation of these tools
 On the machine where you want to capture the metrics, install [Glances](https://nicolargo.github.io/glances/), with the InfluxDB [Python](https://pypi.org/project/influxdb/) client:
 
 ```shell
-[josevnz@dmaf5 ~]$ python3 -m venv ~/virtualenv/glances
-[josevnz@dmaf5 ~]$ . ~/virtualenv/glances/bin/activate
-(glances) [josevnz@dmaf5 ~]$ pip install wheel
-(glances) [josevnz@dmaf5 ~]$ pip install --upgrade glances[all]
+[josevnz@server1 ~]$ python3 -m venv ~/virtualenv/glances
+[josevnz@server1 ~]$ . ~/virtualenv/glances/bin/activate
+(glances) [josevnz@server1 ~]$ pip install wheel
+(glances) [josevnz@server1 ~]$ pip install --upgrade glances[all]
 Collecting glances
   Downloading Glances-3.3.1.1-py3-none-any.whl (708 kB)
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 708.4/708.4 kB 6.7 MB/s eta 0:00:00
