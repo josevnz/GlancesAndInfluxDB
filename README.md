@@ -1,5 +1,7 @@
 # Glances and InfluxDB for monitoring and troubleshooting
 
+![](mazinger-z.png)
+
 Imagine the following situation: You are trying to figure out why one of your applications is not performing well.
 
 The application logs do not show a specific issue and by the time you got to check the server the problem was "gone".
